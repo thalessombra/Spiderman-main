@@ -1,0 +1,65 @@
+@import url('reset.css');
+@import url('navigator.css');
+@import url('global.css');
+@import url('pills.css');
+@import url('/assets/CSS/button.css');
+@import url('gallery.css');
+
+
+.s-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.s-wrapper video {
+    width: 100%;
+    position: fixed;
+}
+.s-wrapper .s-leftcolumn {
+    width: 100px;
+    height: 100%;
+    display: flex;
+   position: fixed;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+
+}
+
+
+.s-wrapper .s-maincontent {
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+    position: relative;
+
+}
+
+.s-wrapper .s-maincontent .s-logo img {
+    margin-top: 50px;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+.s-wrapper .s-maincontenttop .s-description{
+    background-color: rgba(0, 0, 0, .7);
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.s-descriptiontext p {
+line-height: 150%;
+}
+
+.s-wrapper.s-maincontent .s-links{
+    padding: 20px;
+    padding-left: 0;
+}
+.s-wrapper.s-maincontent .s-links ul{
+    display: flex;
+    flex-direction: row;
+}

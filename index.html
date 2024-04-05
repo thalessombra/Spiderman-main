@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/CSS/homepage.css">
+    <script src="../assets/Scripts/script.js"></script>
+    <title>Spiderman</title>
+</head>
+<body>
+    
+    <nav class="menu">
+        <ul>
+            <li class="menuitem">
+                <a href="/">Página inicial</a>
+            </li>
+
+            <li class="menuitem">
+                <a href="#">Tobey Maguire</a>
+            </li>
+            <li class="menuitem menuicon">
+                <img src="../assets/images/icons/spider.svg" alt="icone">
+            </li>
+
+            <li class="menuitem">
+                <a href="#">Andrew Garfield</a>
+            </li>
+
+            <li class="menuitem">
+                <a href="#">Tom Holland</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="s-container">
+        <div class="s-cards-carrousel" style="transform: translateZ(-40vw) rotateY(0deg);">
+            <a href="TobeyMaguire/spiderman1.html" class="s-card" id="spider-man-01" >
+                <img  class="s-cardbackground" src="../assets/images/pic-sm-bg-01.jpg">
+                <img class="s-cardimage" src="../assets/images/spider-man-01.png" alt="Tobey">
+                <h2 class="s-cardtitle">Tobey Maguire</h2>
+               </a>
+        
+               <a href="TomHolland/newspiderman1.html" class="s-card"  id="spider-man-02">
+                <img  class="s-cardbackground" src="../assets/images/pic-sm-bg-02.jpg">
+                <img class="s-cardimage" src="../assets/images/spider-man-02.png" alt="Tom">
+                <h2 class="s-cardtitle">Tom Holland</h2>
+               </a>
+        
+               <a href="AndrewGarfield/amazingspiderman1.html" class="s-card" id="spider-man-03">
+                <img class="s-cardbackground" src="../assets/images/pic-sm-bg-03.jpg">
+                <img class="s-cardimage" src="../assets/images/spider-man-03.png" alt="Andrew">
+                <h2 class="s-cardtitle">Andrew Garfield</h2>
+               </a>
+        
+        </div>
+    </div>
+ 
+    <div  class="s-controller">
+        
+        <div  id="1" onclick="selectCarrouselItem(this)" class="s-controllerbutton s-controllerbutton--active">
+            01
+        </div>
+        <div  id="2" onclick="selectCarrouselItem(this)" class="s-controllerbutton">
+            02
+        </div>
+        <div  id="3" onclick="selectCarrouselItem(this)" class="s-controllerbutton">
+            03
+        </div>
+        <div class="s-controllerline"></div>
+    </div>
+
+   
+</body>
+</html>
